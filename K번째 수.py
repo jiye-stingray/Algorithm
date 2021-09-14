@@ -8,6 +8,7 @@
 
 t = int(input("몇번 테스트 할까요?"))
 for i in range(t):
+    print("4가지 조건을 차레대로 입력하세요")
     n,s,e,k = map(int,input().split())
     # 배열 받은뒤, list 화
     print(n,"만큼 수를 입력하세요")
